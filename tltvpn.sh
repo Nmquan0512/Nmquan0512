@@ -164,8 +164,8 @@ Nodes:
   -
     PanelType: "V2board" # Panel type: SSpanel, V2board, PMpanel, Proxypanel
     ApiConfig:
-      ApiHost: "https://vpngiare.net"
-      ApiKey: "nmquanvanhvanhvanh"
+      ApiHost: "https://tltvpn.xyz"
+      ApiKey: "tanlaotatanlaota113"
       NodeID: 41
       NodeType: V2ray # Node type: V2ray, Trojan, Shadowsocks, Shadowsocks-Plugin
       Timeout: 30 # Timeout for the api request
@@ -304,7 +304,7 @@ logs_xrayr() {
   docker-compose logs --tail 100
 }
 
-# Update config
+# Cập nhập config
 UpdateConfig_xrayr() {
   cd ${cur_dir}
   echo "Đóng Dịch Vụ Hiện Tại"
@@ -328,7 +328,7 @@ delete_xrayr() {
   rm -Rf ${cur_dir}
   echo "Đã Xóa Thành Công !"
 }
-#Stop
+#Dừng XrayR
 stop_xrayr() {
   cd ${cur_dir}
   docker-compose down
@@ -340,7 +340,7 @@ stop_xrayr() {
   echo "Đã Chạy Thành Công !"
   }
 
-# Install xrayr
+# Cài Đặt xrayr
 Install_xrayr() {
   pre_install_docker_compose
   config_docker
