@@ -23,8 +23,8 @@ about() {
 	echo "██▄▀▄███─▄▄▄██─█▄▀─██─██▄─██─███─▀─███─▄─▄██─▄█▀█"
 	echo "▀▀▀▄▀▀▀▄▄▄▀▀▀▄▄▄▀▀▄▄▀▄▄▄▄▄▀▄▄▄▀▄▄▀▄▄▀▄▄▀▄▄▀▄▄▄▄▄▀"
 	echo " ========================================================= "
-        echo " Website : ${SKYBLUE}Website: https://vpngiare.net${PLAIN}
-	echo " Zalo : ${RED}0968596808${PLAIN}
+        echo " Website :${SKYBLUE}Website: https://vpngiare.net${PLAIN}
+	echo " Zalo :${RED}0968596808${PLAIN}
 }
 
 cancel() {
