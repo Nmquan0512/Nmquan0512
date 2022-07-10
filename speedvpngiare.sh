@@ -24,7 +24,7 @@ about() {
 	echo "▀▀▀▄▀▀▀▄▄▄▀▀▀▄▄▄▀▀▄▄▀▄▄▄▄▄▀▄▄▄▀▄▄▀▄▄▀▄▄▀▄▄▀▄▄▄▄▄▀"
 	echo " ========================================================= "
         echo -e " Website :${SKYBLUE}Website: https://vpngiare.net${PLAIN}
-	" Zalo :${RED}0968596808${PLAIN}
+" Zalo :${RED}0968596808${PLAIN}
 }
 
 cancel() {
