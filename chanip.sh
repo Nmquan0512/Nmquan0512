@@ -31,6 +31,23 @@ iptables -I INPUT -s checkip.com.vn -j DROP
 iptables -I INPUT -s whois.inet.vn -j DROP
 iptables -I INPUT -s kiemtraip.com -j DROP
 iptables -I INPUT -s diachiip.com -j DROP
+iptables -I INPUT -s nordvpn.com -j DROP
+iptables -I INPUT -s avast.com -j DROP
+iptables -I INPUT -s touch.whatsmyip.org -j DROP
+iptables -I INPUT -s ipchicken.com -j DROP
+iptables -I INPUT -s router-network.com -j DROP
+iptables -I INPUT -s ipcost.com -j DROP
+iptables -I INPUT -s whatismybrowser.com -j DROP
+iptables -I INPUT -s kinsta.com -j DROP
+iptables -I INPUT -s tunnelbear.com -j DROP
+iptables -I INPUT -s hidemyass.com -j DROP
+iptables -I INPUT -s ip.me -j DROP
+iptables -I INPUT -s iplogger.org -j DROP
+iptables -I INPUT -s ip.zscaler.com -j DROP
+iptables -I INPUT -s dichthuatphuongdong.com -j DROP
+iptables -I INPUT -s ipvanish.com -j DROP
+iptables -I INPUT -s avira.com -j DROP
+iptables -I INPUT -s tracemyip.org -j DROP
 iptables -I INPUT -p tcp -m tcp --dport 22 -j ACCEPT
 iptables -I INPUT -p tcp -m tcp --dport 80 -j ACCEPT
 iptables -I INPUT -p tcp -m tcp --dport 443 -j ACCEPT
