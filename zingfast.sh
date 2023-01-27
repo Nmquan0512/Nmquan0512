@@ -164,8 +164,8 @@ Nodes:
   -
     PanelType: "V2board" # Panel type: SSpanel, V2board, PMpanel, Proxypanel
     ApiConfig:
-      ApiHost: "https://vpngiangon.com"
-      ApiKey: "1122334455667788"
+      ApiHost: "https://zingfast.io"
+      ApiKey: "tuyetngakmazazfcfvandoan"
       NodeID: 41
       NodeType: V2ray # Node type: V2ray, Trojan, Shadowsocks, Shadowsocks-Plugin
       Timeout: 30 # Timeout for the api request
